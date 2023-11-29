@@ -1,0 +1,97 @@
+site_name: Disc ID
+theme:
+  name: material
+  palette:
+    - scheme: light
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    - content.tabs.link
+    - navigation.expand
+    - navigation.tabs
+    - navigation.top
+    - navigation.instant
+    - search.share
+    - search.suggest
+    - toc.integrate
+  icon:
+    repo: 'fontawesome/brands/github'
+  logo: 'images/Disc_ID_Square.png'
+  favicon: 'images/favicon.png'
+repo_name: Disc-ID/discid.org
+repo_url: 'https://github.com/Disc-ID/discid.org'
+plugins:
+  - search # necessary for search to work
+  - git-revision-date-localized
+  - blog:
+      blog_dir: project-updates
+      blog_toc: true
+  - rss:
+      match_path: project-updates/posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags 
+edit_uri: 'edit/main/docs/'
+nav:
+  - Home: index.md
+  - Project Updates: project-updates/index.md
+  - Specification:
+      - Disc ID Specification: specification/disc-id.md
+      - Data Maps: specification/data-maps.md
+      - NDEF: specification/ndef.md
+  - Implementations: implementations.md
+  - Guides & Reference: guides-reference.md
+  - About: about.md
+extra:
+  social:
+  - icon: 'fontawesome/brands/github'
+    link: 'https://github.com/Disc-ID/discid.org'
+extra_css:
+  - 'stylesheets/extras.css'
+markdown_extensions:
+  - admonition
+  - attr_list
+  - codehilite:
+      guess_lang: false
+  - footnotes
+  - meta
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+      base_path: 'docs/snippets'
+  - pymdownx.striphtml:
+      strip_comments: true
+      strip_attributes: ''
+  - pymdownx.superfences:
+      custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_div_format
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 4

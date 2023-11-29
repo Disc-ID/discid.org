@@ -1,0 +1,2 @@
+!!! success "Interested in helping out?"
+	If you can't find the content you are looking for and want to try your hand at helping add it in, head over to the [discid.org GitHub Issues list](https://github.com/Disc-ID/discid.org/issues) to see if it is already being worked on. If not, [open a new issue](https://github.com/Disc-ID/discid.org/issues/new) about it and make a note that you are interested in assisting. And of course, thanks for your help!
