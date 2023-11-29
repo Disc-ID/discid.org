@@ -181,7 +181,7 @@ The name of the specific manufacturing run the disc was produced during, as defi
 
 *Format:* Variable string of ASCII characters
 
-#### flight
+#### Flight
 The flight numbers based on the [Flight Ratings System](https://www.innovadiscs.com/home/disc-golf-faq/flight-ratings-system/){ target=_blank } popularized by Innova Discs, including Speed (1-14+), Glide (1 to 7+), Turn (-5 to 1+) and Fade (0-5+).
 
 *Format*: 18 bits split into one integer for each characteristic/indicator as noted below:
@@ -194,7 +194,7 @@ The flight numbers based on the [Flight Ratings System](https://www.innovadiscs.
 | Turn           | 3 bits | -7 to 7                    |
 | Fade           | 4 bits | 0 to 15                    |
 
-#### color
+#### Color
 The name of the color plastic used to manufacture the disc, as defined by the manufacturer.
 
 *Format:* Variable string of ASCII characters

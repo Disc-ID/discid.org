@@ -51,7 +51,7 @@ This record layout is used when the payload length is over 255 octets (bytes).
 ![NDEF Record Layout](/images/NDEF_Record_Layout.png){ style="min-width: 100px; max-height: 500px;"}
 
 ## URI Identifier Codes
-The following URI Identifier Codes can be used to replace the URI Header in the Payload of a Well-Known Type URI Record, such as in [Record 1: NFC Forum Well-Known Type - URI](/specification/disc-id.md#record-1-nfc-forum-well-known-type-uri)
+The following URI Identifier Codes can be used to replace the URI Header in the Payload of a Well-Known Type URI Record, such as in [Record 1: NFC Forum Well-Known Type - URI](/specifications/disc-id.md#record-1-nfc-forum-well-known-type-uri)
 
 | URI Identifier Code (UIC) | Content        |
 |---------------------------|----------------|

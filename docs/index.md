@@ -24,7 +24,7 @@ Of course having a data standard isn't very helpful unless there are also tools 
 ### [Project Updates](project-updates/index.md)
 An area for more structured updates about the project, helping to gather key details from other collaboration areas (GitHub, etc.). There is a [RSS feed](feed_rss_created.xml) of this available as well.
 
-### [Specification](disc-id.md)
+### [Specification](specifications/disc-id.md)
 Where the standards for the tag data will be documented including field formats, acceptable values, encoding requirements, etc. By providing a precise definition for the data, any parties interested in developing tools to read, write and manage the data will produce something interoperable with rest of the industry.
 
 ### [Implementations](implementations.md)

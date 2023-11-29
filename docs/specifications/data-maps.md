@@ -1,6 +1,6 @@
 ---
 title: Data Maps
-description: Mapping of values and enumerations for Disc ID Specification
+description: Mapping of values and enumerations for the Disc ID Specification
 ---
 
 # Data Maps

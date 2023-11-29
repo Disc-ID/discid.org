@@ -57,3 +57,7 @@ darkest:
   -webkit-mask-image: var(--md-admonition-icon--discussion);
           mask-image: var(--md-admonition-icon--discussion);
 }
+
+.md-typeset .admonition, .md-typeset details {
+  font-size: 0.7rem;
+}

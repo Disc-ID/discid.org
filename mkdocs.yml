@@ -1,4 +1,5 @@
 site_name: Disc ID
+site_url: https://discid.org
 theme:
   name: material
   palette:
@@ -38,14 +39,17 @@ plugins:
       categories:
         - categories
         - tags 
+  - social:
+      cards_layout_options:
+        background_color: "#343d46"
 edit_uri: 'edit/main/docs/'
 nav:
   - Home: index.md
   - Project Updates: project-updates/index.md
-  - Specification:
-      - Disc ID Specification: specification/disc-id.md
-      - Data Maps: specification/data-maps.md
-      - NDEF: specification/ndef.md
+  - Specifications:
+      - Disc ID Specification: specifications/disc-id.md
+      - Data Maps: specifications/data-maps.md
+      - NDEF: specifications/ndef.md
   - Implementations: implementations.md
   - Guides & Reference: guides-reference.md
   - About: about.md
