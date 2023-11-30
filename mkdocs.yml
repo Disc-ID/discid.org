@@ -32,6 +32,7 @@ plugins:
   - blog:
       blog_dir: project-updates
       blog_toc: true
+      post_excerpt: required
   - rss:
       match_path: project-updates/posts/.* 
       date_from_meta:
@@ -61,40 +62,14 @@ extra_css:
   - 'stylesheets/extras.css'
 markdown_extensions:
   - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - attr_list
-  - codehilite:
-      guess_lang: false
   - footnotes
   - meta
-  - pymdownx.arithmatex
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.emoji
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.magiclink
-  - pymdownx.mark
-  - pymdownx.smartsymbols
   - pymdownx.snippets:
       check_paths: true
       base_path: 'docs/snippets'
-  - pymdownx.striphtml:
-      strip_comments: true
-      strip_attributes: ''
-  - pymdownx.superfences:
-      custom_fences:
-      - name: mermaid
-        class: mermaid
-        format: !!python/name:pymdownx.superfences.fence_div_format
-  - pymdownx.tabbed:
-      alternate_style: true 
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
   - tables
   - toc:
       permalink: true

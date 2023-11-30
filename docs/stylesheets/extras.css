@@ -61,3 +61,8 @@ darkest:
 .md-typeset .admonition, .md-typeset details {
   font-size: 0.7rem;
 }
+
+/* Increase the margin between Metadata and Toc in left menu of blog posts */
+.md-post>.md-nav--secondary {
+  margin: 2em 0;
+}
