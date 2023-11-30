@@ -33,8 +33,6 @@ Information about software implementations which conform to the Disc ID standard
 ### [Guides & Reference](guides-reference.md)
 A home for practical guides on how to utilize the data standard and/or just experiment yourself with NFC tag reading and writing. There are also links to various reference material helpful to the project in general.
 
----
-
 ## Getting Involved
 Projects like this thrive through the involvement of many parties. To give it the best chance of gaining support from the broader disc golf community, as well as those inside the many companies and organizations driving the disc golf industry forward, it will be operated openly. The resources it produces will primarily be published under the [MIT License](https://choosealicense.com/licenses/mit/) to be permissive in commercial use.
 
@@ -44,9 +42,6 @@ To help improve collaboration, [GitHub Discussions](https://discussions.discid.o
 	Join the discussions by posting a short note about who you are and why you are interested in the project in the [Introductions thread](https://github.com/orgs/Disc-ID/discussions/1).
 
 Other GitHub services are likely to be used to help track the efforts, including Issues and Projects.
-
-## Who is doing this?
-This site was setup by Zach Hyatt, PDGA #27534, just a fellow disc golfer trying to help the sport. You can reach him at zach📧discid.org.
 
 ## FAQs
 
