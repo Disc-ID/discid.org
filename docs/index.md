@@ -48,5 +48,8 @@ Other GitHub services are likely to be used to help track the efforts, including
 ??? question "Can these tags be used to find lost discs on the course?"
 	No, the specifications call for the use of Near Field Communications (NFC) tags and are only readable from a couple inches away.
 
-??? question "Are discs with NFC tag stickers attached legal for play in PDGA sanctioned tournaments?"
+??? question "Are discs with NFC tag stickers attached after manufacturing legal for play in PDGA sanctioned tournaments?"
 	No, the PDGA does not allow the addition of any material to a disc which has a "detectable thickness such as paint" (see [rule 813.01.C.4 Illegal Disc](https://www.pdga.com/rules/official-rules-disc-golf/81301)) and given NFC tags have a detectable thickness, they would fall under this rule making the disc illegal for play.
+
+??? question "Are discs with NFC tags embedded in the plastic legal for play in PDGA sanctioned tournaments?"
+	Yes, according to the [PDGA Technical Standards](https://www.pdga.com/files/pdga-technical-standards_2021-01-20_0.pdf) in section 1.C.2, discs are to "be made of solid, non-magnetic plastic material, without any inflatable components. Electronic components may be embedded/inserted with none of its metal components externally exposed." The NFC tags can be embedded in plastic so none of the parts are exposed, and thus would be legal for PDGA play.
