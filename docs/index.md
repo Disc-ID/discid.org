@@ -13,7 +13,7 @@ Otherwise, feel free to explore other resources in the top navigation - thanks f
 ---
 
 ## The Goal
-The Disc ID Project has a primary goal of developing standards for recording data about a disc golf disc onto a Near Field Communication (NFC) tag on the disc. We are unaware of any existing standards and are working to align efforts around a single, open source standard. Hopefully this will avoid the confusion and ineffeciency that comes with too many standards, so succinctly explained by [this XKCD comic](https://xkcd.com/927/){ target=_blank }.
+The Disc ID Project has a primary goal of developing standards for recording data about a disc golf disc onto a Near Field Communication (NFC) tag on the disc. We are unaware of any existing standards and are working to align efforts around a single, open source standard. Hopefully this will avoid the confusion and ineffeciency that comes with too many standards, so succinctly explained by [this XKCD comic](https://xkcd.com/927/).
 
 Although there are many interesting use cases for these tags being attached to the outside of a disc, the specification will take into consideration potential limitations and costs related to embedding the tags directly into the disc in the future by manufacturers.
 
@@ -49,4 +49,4 @@ Other GitHub services are likely to be used to help track the efforts, including
 	No, the specifications call for the use of Near Field Communications (NFC) tags and are only readable from a couple inches away.
 
 ??? question "Are discs with NFC tag stickers attached legal for play in PDGA sanctioned tournaments?"
-	No, the PDGA does not allow the addition of any material to a disc which has a "detectable thickness such as paint" (see [rule 813.01.C.4 Illegal Disc](https://www.pdga.com/rules/official-rules-disc-golf/81301){ target=_blank }) and given NFC tags have a detectable thickness, they would fall under this rule making the disc illegal for play.
+	No, the PDGA does not allow the addition of any material to a disc which has a "detectable thickness such as paint" (see [rule 813.01.C.4 Illegal Disc](https://www.pdga.com/rules/official-rules-disc-golf/81301)) and given NFC tags have a detectable thickness, they would fall under this rule making the disc illegal for play.

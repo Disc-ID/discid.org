@@ -62,6 +62,7 @@ The following URI Identifier Codes can be used to replace the URI Header in the 
 | `0x04`                    | `https://`     |
 
 ## Links
+The below links to PDF files may not load content in the browser via the GitHub interface, so you may need to download them to view.
 
 [NFC Data Exchange Format (NDEF) Technical Specification 1.0](https://github.com/haldean/ndef/blob/master/docs/NFCForum-TS-NDEF_1.0.pdf)
 
