@@ -52,6 +52,7 @@ nav:
       - Data Maps: specifications/data-maps.md
       - NDEF: specifications/ndef.md
   - Implementations: implementations.md
+  - Registry: registry.md
   - Guides & Reference: guides-reference.md
   - About: about.md
 extra:
