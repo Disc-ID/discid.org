@@ -1,6 +1,8 @@
 ---
 title: About
 description: Details about the Disc ID project
+hide:
+  - navigation
 ---
 
 # About

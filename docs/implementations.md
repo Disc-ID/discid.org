@@ -1,6 +1,8 @@
 ---
 title: Implementations
 description: Details about software implementations of the Disc ID Specification
+hide:
+  - navigation
 ---
 
 # Implementations
