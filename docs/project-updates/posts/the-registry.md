@@ -3,7 +3,7 @@ draft: false
 date: 2023-12-31
 authors: [hyattzer]
 categories:
-  - General
+  - Registry
 description: A new page about a registry was added 
 ---
 
